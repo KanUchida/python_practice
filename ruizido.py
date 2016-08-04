@@ -1,8 +1,5 @@
 # encoding: utf-8
 
-__author__ = 'emoson'
-
-
 def cosine_similarity(v1, v2):
     """
     ベクトルv1, v2のcos類似度の算出
