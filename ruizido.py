@@ -44,9 +44,9 @@ def tf_idf(terms, documents):
 
 if __name__ == "__main__":
     #単語リスト
-    _terms = ["私", "内田寛", "mieruca", "FaberCompany", "サービス", "持つ", "東京工業大学", "通って", "インターン",  "応募",  "名前"]
+    _terms = ["辞書", "リスト", "を", "ここに", "入力"]
     #文章リスト
-    _documents = ["私の名前は、内田寛です。東京工業大学に通っています。", "mierucaはFaberCompanyのサービスです。", "内田寛は、meirucaをサービスに持つ、FaberCompanyのインターンに応募しています。"]
+    _documents = ["入力する文章を", "ここに入れる", "それでいいのだ"]
     tf_idfs = tf_idf(_terms, _documents)
 
     #文章0と文章1の類似度
