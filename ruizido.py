@@ -1,3 +1,5 @@
+# encoding: utf-8
+
 __author__ = 'emoson'
 
 
@@ -42,9 +44,9 @@ def tf_idf(terms, documents):
 
 if __name__ == "__main__":
     #単語リスト
-    _terms = ["ミエルカ", "自然言語処理", "人工知能"]
+    _terms = ["私", "内田寛", "mieruca", "FaberCompany", "サービス", "持つ", "東京工業大学", "通って", "インターン",  "応募",  "名前"]
     #文章リスト
-    _documents = ["ミエルカ、ミエルカ", "ミエルカと自然言語処理", "自然言語処理と人工知能"]
+    _documents = ["私の名前は、内田寛です。東京工業大学に通っています。", "mierucaはFaberCompanyのサービスです。", "内田寛は、meirucaをサービスに持つ、FaberCompanyのインターンに応募しています。"]
     tf_idfs = tf_idf(_terms, _documents)
 
     #文章0と文章1の類似度
